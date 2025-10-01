@@ -1,0 +1,5 @@
+{
+  "name": "Registro de extintores V1.2",
+  "description": "Una aplicación editable para registrar, revisar y verificar extintores de incendios en diferentes áreas. Gestione extintores y realice inspecciones detalladas con cuestionarios editables.",
+  "requestFramePermissions": []
+}
