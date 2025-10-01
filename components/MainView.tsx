@@ -85,7 +85,7 @@ const EditableListItem: React.FC<EditableItemProps> = ({ item, onUpdate, onDelet
 
     return (
         <div
-            className={`group flex items-center justify-between p-2 rounded-lg cursor-pointer transition-all duration-200 text-sm ${
+            className={`group flex items-center justify-between p-4 rounded-lg cursor-pointer transition-all duration-200 text-base ${
                 isSelected ? 'bg-red-600 text-white shadow-md' : 'bg-white hover:bg-gray-50 border border-gray-200'
             }`}
             onClick={() => {
@@ -452,7 +452,7 @@ const MainView: React.FC<MainViewProps> = ({
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-1 bg-white p-6 rounded-xl shadow-lg">
                 <h2 className="text-xl font-bold mb-4 text-gray-700">Zona de Inspección</h2>
-                <div className="grid grid-cols-3 gap-2 mb-4">
+                <div className="grid grid-cols-1 gap-3 mb-4">
                     {areas.map(area => (
                        <EditableListItem 
                             key={area.id}
